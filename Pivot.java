@@ -37,3 +37,8 @@ public static void main(String args[])
     //System.out.println(ans2);
 }
 }
+// this is the code for finding the pivot now lets make the code for finding the target element in rotated sorted array
+// okay I was thinking what if the arr={9,8,7,6,5,3,2,1}
+// this is the descending rotated sorted array
+// so we have to reverese the logic for this
+

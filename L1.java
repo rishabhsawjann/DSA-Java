@@ -28,3 +28,30 @@ class L1 {
         return result;
     }
 }
+
+/* Now what if we want to print the elments themselves instead of the number of elements
+we can just directly return arr[i] right, yea I think we can do that instead of returning result we can just directly return the arr[i] to the findNumber function*/
+
+class Solution {
+    public static void main(String[] args) {
+        int[] arr = {12, 345, 2, 6, 7896};
+        findNumbers(arr);  // prints directly
+    }
+
+    static void findNumbers(int[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            int num = arr[i];
+            int count = 0;
+
+            int temp = num;
+            while (temp > 0) {
+                temp = temp / 10;
+                count++;
+            }
+
+            if (count % 2 == 0) {
+                System.out.println(arr[i]);  // print directly, we can directly print this inside the function 
+            }
+        }
+    }
+}

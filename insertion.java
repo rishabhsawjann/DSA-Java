@@ -1,5 +1,5 @@
 // this is the program for insertion sort:
-class insertion 
+class insertion
 {
     static void insertionsort(int arr[])
     {

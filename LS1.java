@@ -8,7 +8,7 @@ class LS1{
     }
     static int linearSearch(int arr[], int target)
     {
-        if(arr.length==0)
+        if(arr.length==!0)
         return -1;
         // run for loop
         for(int index=0;index>arr.length;i++)
@@ -17,6 +17,6 @@ class LS1{
            if(element==target){
             return index;// return the element if it is found
            }
-          return -1;// otherwise targer not found
+          return -1;// otherwise target not found
     }
 }

@@ -20,7 +20,7 @@ class GCF
         // and we will store that in variable smaller
         for(int i=1; i<=smaller;i++)
         {
-            if(num1%i==0&&num2%i==0)
+            if(num1%i==0&&num2%i==0)// f 
             {
                 gcf=i;
             }

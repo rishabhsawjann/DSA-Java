@@ -69,4 +69,4 @@ public static void main(String args[])
     System.out.println("the number of rotations are: "+roationcount);
 }
 }
-// this is the code for finding the pivot now lets make the code for finding the target element in rotated sorted array
+// this will not work with duplicate values:
